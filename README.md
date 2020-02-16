@@ -16,8 +16,8 @@ Note here you may need to uninstall defaultly installed antlr4-python3-runtime w
 - Run example.py to see the basic usage of pddlpy
 
 ### What do you need to implement
-- A python class which can convert the PDDL problem to a logic formula (one file)
-- Call z3 to solve the satisfactory problem for the logic formula (one file)
+- A python class which can convert the PDDL problem to a [SAT](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) problem (one file)
+- A python script to Call z3 to solve the SAT problem (one file)
 
 ### Commit and push your code
 - Upload your code to the repo under the branch name you just created
