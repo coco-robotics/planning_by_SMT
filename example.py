@@ -12,6 +12,17 @@ if __name__ == '__main__':
     # Use pddlpy to parse pddl problem definitions
     domprob = pddlpy.DomainProblem(pddl_domain_file, pddl_problem_file)
 
+    # Print goal state of the pddl problem
+    print("Goal states: ", domprob.goals())
+
+    # Print world objects of the pddl problem
+    print("Objects: ", domprob.worldobjects())
+
+    # Print predicates of the domain
+    for predicate in domprob.predicates():
+        print('Predicate: name: {} variable list: {}'.format(predicate.predicate_name,
+                                                             predicate.variable_list))
+
     # Print initial states of the pddl problem
     print("Initial states: ", domprob.initialstate())
 
