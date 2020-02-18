@@ -6,7 +6,8 @@ This executable works for test cases(domain and problem) in strips_test director
 
 ### To Run blackbox
 1. Clone this repo 
-2. $> ./blackbox -o strips_test/domain.pddl -f strips_test/problem.pddl
+2. (For Mac) $> ./blackbox -o strips_test/domain.pddl -f strips_test/problem.pddl  
+3. If above not works, go to the blackbox webpage and replace the executable suitable for your system and do it again.
 
 ### Problems
 I am not sure why the blackbox does not work for the pddl files in pddl_files directory, can you explain that? Thanks!
