@@ -3,6 +3,23 @@ import os.path as osp
 import pddlpy
 
 
+class PDDLtoSAT():
+
+    def __init__(self):
+
+    def convert(self):
+        # Propositionalize the actions
+
+        # Define initial state
+
+        # Propositionalize the goals
+
+        # Add successor-state axioms
+
+        # Add precondition axioms
+
+        # Add action exclusion axiom
+
 if __name__ == '__main__':
     root_path = osp.dirname(osp.abspath(__file__))
 
